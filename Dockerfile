@@ -1,4 +1,5 @@
 FROM ubuntu:latest
 RUN apt update -y
-RUN apt install neofetch -y
-CMD neofetch
+RUN apt install novnc -y
+
+EXPOSE 8080
